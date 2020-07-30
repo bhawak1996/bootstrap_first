@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    <style>
+    	#header{
+    		box-sizing: border-box;
+    		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url("web1.jpg");
+    		color:white;
+    	    font-family: 'Vollkorn', serif;
+    		letter-spacing: 1.8px;
+            padding:12px;
+    	}
+    	#button1{
+    		border: 2px solid rgb(0,0,0);
+    		border-radius: 20px;
+    		color:black;
+    	}
+    	.head{
+    		background-color: rgb(0,0,0);
+            color:white;
+            border-radius:20px;
+            font-size:250%;
+            width:225px;
+            padding:5px;
+    	}
+    	.button1{
+    		border: 2px solid rgb(0,0,0);
+    		border-radius: 20px;
+    		color:black;
+    	}
+    	#div3{
+    	     background-color:#F3F2F1;
+    		height:48%;
+    		padding:25px;
+    	}
+    	.skill{
+    		background-color:#CD7F32;
+			color:white;
+			border:1px solid ;
+			border-radius: 10px;
+			font-family:'Bitter', serif;
+			height:80px;
+    	}
+    	#div4{
+    		box-sizing: border-box;
+    		padding:20px;
+    		height:45%;
+    	}
+    	iframe{
+			width: 100%;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+    </style>
+
+</head>
+<body>
+	<div class="container-fluid text-center" id="header">
+	   	<div class="display-4"><strong>Bhawak Anand</strong></div>
+	   	<div class="h1"><strong>An interactive <span onmouseover="change()" onmouseleave="ch()" id="change">Web Desginer</span></strong></div>
+	   	<button class="h2" id="button1" onclick="demo()"><strong>Download CV</strong></button>
+	</div>
+
+	 <div class="container-fluid">
+	 	<div class="row ">
+	 		<div class="col-lg-6  col-md-5 col-sm-12"><img  class="img-fluid"src="image2.png" alt="Bhawak Anand" style="border:5px solid white"></div>
+	 		<div class="col-lg-6  col-md-7 col-sm-12" style="border:5px solid white">
+	 			<div  class="text-center head" style="font-family: 'Alice', serif;"><strong>About Me</strong></div><br>
+	 			<article class="h1" style="font-family:'Bitter', serif;">
+			I Bhawak Anand, Civil Engineering student of IIT (BHU) Varanasi.My hobbies are play cricket,coding and teaching others.
+		        </article><br>
+		        <button class="button1 h3" onclick="dem()"><i class="fa fa-download"></i>Download Resume</button>
+	        </div>
+	    </div>
+    </div>
+
+	<div class="container-fluid " id="div3">
+		<div class="row" style="text-align: center;">
+			<div class="head display-4" style="margin:0px auto;font-family: 'Alice', serif;"><strong>Skills</strong></div>
+		</div>
+			<div class="row text-center">
+				<div class="col-lg-4 col-sm-6 display-4 skill"><strong>C</strong></div>
+				<div class="col-lg-4 col-sm-6 display-4 skill"><strong>C++</strong></div>
+				<div class="col-lg-4 col-sm-6 display-4 skill"><strong>Python</strong></div>
+				<div class="col-lg-4 col-sm-6 display-4 skill"><strong>HTML5</strong></div>
+				<div class="col-lg-4 col-sm-6 display-4 skill"><strong>CSS3</strong></div>
+				<div class="col-lg-4 col-sm-6 display-4 skill"><strong>Javascript</strong></div>
+            </div>
+    </div>
+
+
+    <div class="container-fluid text-center" id="div4">
+    		<div class="h1 head" style="margin:0 auto;text-align: center; margin-bottom:25px; font-family:'Alice', serif;"><strong>Contact</strong></div>
+    		<i class="fa fa-facebook-official img-fluid" style="color:blue;font-size:100px"></i>
+	        <i class="fa fa-instagram" style="color:#fb3958;font-size:100px"></i>
+	        <i class="fa fa-twitter-square " style="color:blue;font-size:100px"></i>
+           <i class="fa fa-linkedin-square " style="color:blue;font-size:100px"></i>
+	      <i class="fa fa-envelope" style="color:red;font-size:100px;"></i>
+          <i class="fa fa-youtube" aria-hidden="true" style="font-size: 100px;" ></i>
+    </div>
+    
+
+    <div class="container-fluid" style="background-color:  #F36A6A; color:#fff;height:20vh;">
+    	<div class="h1" style="padding-left:10%; padding-top:3%;font-family:'Bitter', serif; "><i class="fa fa-location-arrow"></i>Catch me in Google Map</div>
+    </div>
+
+
+    <div>
+         <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d112085.36993720224!2d77.20468480000001!3d28.6097408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1594800448445!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+	</body>
+<script type="text/javascript">
+	function change(){
+		var c="Programmer";
+		document.getElementById("change").innerHTML=c;
+	};
+	function ch(){
+		document.getElementById("change").innerHTML="Web Desginer";
+	};
+	function demo(){
+		alert("CV is not Prepared yet");
+	};
+	function dem(){
+		alert("Resume is Not Prepared");
+	}
+
+</script>
+</html>
